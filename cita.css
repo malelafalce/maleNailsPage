@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+	padding: 0;
+}
+html{
+    background: url(./fondoMobile/fondoMobileNOinicio.png);
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+
+
+/*BARRA DE NAVEGACION*/
+
+
+.nav-container{
+    height: 46px;
+    width: auto;
+    background-color: #c89f9f;
+    top: 0px;
+    box-shadow: 2px 12px 8px 0px #00000040;
+}
+
+.nav-ul{
+    display: flex;
+    margin: 0 7px;
+    align-items: center;
+}
+
+
+.icons-container{
+    display: flex;
+    margin-top: 3px;
+}
+
+
+/*TITULO*/
+
+
+
+
+.logo-container .logo{
+    font-size: 18px;
+    color: #5B4D4C;
+    font-family: 'Rosarivo', serif;
+    font-weight: 400;
+    line-height: 25px;
+    margin-top: 5px;
+}
+
+
+/*BOTONES*/
+
+
+.init-container{
+    width: 35px;
+    height: 35px;
+    background-color: #c89f9f;
+    border: 2px solid #5B4D4C;
+    border-radius: 23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px;
+}
+
+.appoint-container{
+    width: 35px;
+    height: 35px;
+    background-color: #5B4D4C;
+    border: 2px solid #c89f9f;
+    border-radius: 23px;
+    display: flex;
+    place-content: center;
+    margin: 0 10px;
+    box-shadow: 0px 4px 4px 0px #00000040;
+
+}
+
+
+.info-container{
+    width: 35px;
+    height: 35px;
+    background-color: #c89f9f;
+    border: 2px solid #5B4D4C;
+    border-radius: 23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px;
+}
+
+.contact-container{
+    width: 35px;
+    height: 35px;
+    background-color: #c89f9f;
+    border: 2px solid #5B4D4C;
+    border-radius: 23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px;
+}
+
+
+
+
+
+
+
+
+
+
+@media (min-width:360px) {
+    html{
+        background: url(./fondoTablet/fondoTabletNOinicio.png);
+    }
+     
+}
+@media (min-width:769px) {
+    html{
+        background: url(./fondoDesktop/fondoDesktopNOinicio.png);
+    }
+    
+    .title-container{
+        margin-top: 170px;
+    }
+    .title-container .title-logo{
+        font-size: 57px;
+        line-height: 80px;
+    }
+
+    
+}
+
+@media (min-width:960px) {
+    
+    .title-container .title-logo{
+        font-size: 78px;
+        line-height: 110px;
+    }
+}
